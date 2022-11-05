@@ -4,20 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="#">Finance <span>Ledger</span></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="#">Finance <span>Ledger</span></a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Cases</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -54,7 +65,12 @@
         </ul>
       </section>
       <section>
-        <img src="./images/team1-min.jpg" alt="6 members of our team" width="680" height="460">
+        <img
+          src="./images/team1-min.jpg"
+          alt="6 members of our team"
+          width="680"
+          height="460"
+        />
         <p>What you are looking for</p>
         <h2>We provide bespoke solutions</h2>
         <p>
@@ -96,23 +112,29 @@
         </p>
         <a href="./index.html">Read Our Blog</a>
         <div>
-          <img src="./images/foto_read_our_blog.jpg" alt="notebooks and a tablet" width="640" height="517">
+          <img
+            src="./images/foto_read_our_blog.jpg"
+            alt="notebooks and a tablet"
+            width="640"
+            height="517"
+          />
         </div>
-        </section>
+      </section>
       <section>
         <p>Who we are</p>
         <h2>Our Professional Team</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
         </p>
         <ul>
           <li>
-            <img src="./images/john_doe.jpg" alt="man in a suit">
+            <img src="./images/john_doe.jpg" alt="man in a suit" />
             <h3>John Doe</h3>
             <p>President</p>
           </li>
           <li>
-            <img src="./images/jane_doe.jpg" alt="stylish woman">
+            <img src="./images/jane_doe.jpg" alt="stylish woman" />
             <h3>Jane Doe</h3>
             <p>Vice President</p>
             <ul>
@@ -123,7 +145,7 @@
             </ul>
           </li>
           <li>
-            <img src="./images/steve_smith.jpg" alt="man in a white shirt">
+            <img src="./images/steve_smith.jpg" alt="man in a white shirt" />
             <h3>Steve Smith</h3>
             <p>Marketing Head</p>
           </li>
