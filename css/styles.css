@@ -1,3 +1,9 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* скидання стилів */
+
 h1,
 h2,
 h3,
@@ -9,6 +15,24 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ОФРМЛЕННЯ ХЕДЕРА */
 
 .container {
   width: 1360px;
