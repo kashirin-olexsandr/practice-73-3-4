@@ -36,6 +36,8 @@ img {
 
 .container {
   width: 1360px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .header-container {
   display: flex;
@@ -63,3 +65,43 @@ img {
   display: block;
   padding: 21px 0;
 }
+/*-------- Busness Cases------------- */
+.work_section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  outline: 1px solid tomato;}
+
+.works_desk {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.17;
+  color: #333333;
+  margin-bottom: 15px;
+  text-align: center;}
+
+.work_title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 34px;}
+.work_text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 39px;}
+
+.work_icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 auto;}
