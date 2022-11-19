@@ -1,10 +1,13 @@
 :root {
   --bgc-blog: #0284D0;
   --color-white: #FFFFFF;
-}
+  --main-color-text: #ffffff;
+  --section-background-color:  #28A745;
+  }
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: var(--main-color-text);
 }
 
 /* скидання стилів */
@@ -21,7 +24,7 @@ ul {
   padding: 0;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
@@ -68,12 +71,6 @@ img {
   display: block;
   padding: 21px 0;
 }
-
-
-
-
-
-
 
 
 /* ________________Blog Post One________________ */
@@ -125,3 +122,202 @@ color: var(--color-white)
 
 
 .img-blog {}
+
+/* What you are looking for */
+
+.container.solutions-block {
+  display: flex;
+  height: 460px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--section-background-color);
+  border-radius: 0px;
+}
+
+.solutions-question {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  } 
+
+.solutions-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 16px;
+  }
+  
+.solutions-text {
+    font-size: 18px;
+    line-height: 1.56;
+    margin-bottom: 16px;
+  }
+  
+.solutions-list {
+    padding-top: 84px;
+    padding-right: 44px;
+    padding-bottom: 84px;
+    padding-left: 30px;
+    }
+  
+  .solutions-link {
+      display: inline-block;
+      color: var(--main-color-text);
+      font-size: 18px;
+      line-height: 1.56;
+      box-sizing: border-box;
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      padding-top: 12px;
+      padding-right: 35px;
+      padding-bottom: 12px;
+      padding-left: 35px;
+      
+  }
+  
+  
+
+/* ------------------section callback---------*/
+
+.callback {
+  text-transform: capitalize;
+}
+
+.container-callback {
+  display: flex;
+}
+
+.form-callback {
+  background-color: #f4f4f4;
+  padding: 80px 30px;
+}
+
+.title-callback {
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #333333;
+}
+
+.enter {
+  display: block;
+  padding: 5px;
+  background-color: #FFFFFF;
+  
+  font-size: 18px;
+  line-height: 1.56;
+  color: #808080;
+}
+.name {
+  margin-bottom: 36px;
+}
+.email {
+  margin-bottom: 60px;
+}
+
+.button-callback {
+  width: 620px;
+  height: 42px;
+  
+  background-color: #28A745;
+  border-radius: 5px;
+  border-color: transparent;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: inherit;
+
+/* ------------OUR PROFESSIONAL TEAM----------- */
+
+.team-uptitle{
+  font-size: 20px;
+  line-height: 1.65;
+
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+.team-title{
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  
+  text-align: center;
+  margin-bottom: 34px;
+
+  color: #333333;
+}
+.team-subtitle{
+  font-size: 18px;
+  line-height: 1.56;
+  
+  text-align: center;
+  margin-bottom: 45px;
+
+  color: #333333;
+}
+.team-item {
+  text-align: center;
+}
+.team-img{
+  max-width: 420px;
+  max-height: 280px;
+  margin-bottom: 13px;
+}
+.team-item .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  
+  text-align: center;
+  margin-bottom: 12px;
+
+  color: #333333;  
+}
+.team-item .role  {
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #333333;
+
+  text-align: center;
+  padding-bottom: 59px;
+}
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.thumb {
+  position: relative;
+}
+.team-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.soc-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.soc-icon{
+  fill: #FFFFFF;
+}
+.soc-link{
+  opacity: 0;
+}
+.thumb:hover .soc-link {
+  opacity: 1;
+}
+
