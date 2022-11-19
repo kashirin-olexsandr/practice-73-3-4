@@ -1,4 +1,6 @@
 :root {
+  --bgc-blog: #0284D0;
+  --color-white: #FFFFFF;
   --main-color-text: #ffffff;
   --section-background-color:  #28A745;
   }
@@ -70,6 +72,56 @@ img {
   padding: 21px 0;
 }
 
+
+/* ________________Blog Post One________________ */
+.blog {
+  display: flex;
+  background-color: var(--bgc-blog);
+ 
+}
+
+.about-blog {
+ display: inline-block;
+width: 680px;
+height: 517px;
+padding: 112px 44px 123px 30px ;
+color: var(--color-white)
+
+ 
+}
+
+
+.date {
+  margin-bottom: 5px;
+  font-size: 20px;
+    line-height: calc(33/20);
+}
+
+.title-blog {
+  margin-bottom: 26px;
+  font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+}
+
+.text-blog {
+  margin-bottom: 28px;
+  font-size: 18px;
+    line-height: 1.56;
+}
+
+.link-blog {
+  color: inherit;
+  font-style: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      padding: 10px 35px;
+}
+
+
+.img-blog {}
 
 /* What you are looking for */
 
