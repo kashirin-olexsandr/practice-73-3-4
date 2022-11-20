@@ -121,19 +121,20 @@ img {
 
 /* FOOTER  - стилізація*/
 .footer {
-  background-color: var(--footer-background-color)
+  background-color: var(--footer-background-color);
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 
 .footer-main {
-  display: flex;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .soc-list {
   display: flex;
   justify-content: center;
   gap:25px;
-  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -148,14 +149,12 @@ img {
   fill: var(--icon-main-color);
 }
 
-.copy-item {
-  padding-bottom: 16px;
-}
 
 .copy-text {
   font-size: 18px;
   line-height: 1.56;
   color: #FFFFFF;
+  text-align: center;
 }
 
 /* ________________Blog Post One________________ */
@@ -377,11 +376,7 @@ color: var(--color-white)
   text-align: center;
   padding-bottom: 59px;
 }
-.soc-list {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-}
+
 .thumb {
   position: relative;
 }
@@ -390,18 +385,7 @@ color: var(--color-white)
   gap: 20px;
   justify-content: center;
 }
-.soc-list {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.soc-icon{
-  fill: #FFFFFF;
-}
-.soc-link{
-  opacity: 0;
-}
+
 .thumb:hover .soc-link {
   opacity: 1;
 }
