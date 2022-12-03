@@ -1,16 +1,16 @@
-:root {
+/* :root {
   --footer-background-color: #333333;
   --icon-main-color: #FFFFFF;
   --bgc-blog: #0284D0;
   --color-white: #FFFFFF;
   --main-color-text: #ffffff;
   --section-background-color:  #28A745;
-}
+} */
 
-body {
+/* body {
   font-family: "Open Sans", sans-serif;
   color: var(--main-color-text);
-}
+} */
 
 /* скидання стилів */
 
@@ -77,7 +77,7 @@ img {
 } */
 
 /*-------- Busness Cases------------- */
-.work_section{
+/* .work_section{
   padding-top: 50px;
   padding-bottom: 50px;
   outline: 1px solid tomato;}
@@ -115,7 +115,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 0 auto;}
+  margin: 0 auto;} */
 
 
 
@@ -209,7 +209,7 @@ color: var(--color-white)
 
 /* What you are looking for */
 
-.container.solutions-block {
+/* .container.solutions-block {
   display: flex;
   height: 460px;
   padding: 0;
@@ -259,7 +259,7 @@ color: var(--color-white)
       padding-bottom: 12px;
       padding-left: 35px;
       
-  }
+  } */
   
   
 
