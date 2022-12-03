@@ -14,7 +14,7 @@ body {
 
 /* скидання стилів */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -40,16 +40,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* ОФРМЛЕННЯ ХЕДЕРА */
 
-.container {
+/* .container {
   width: 1360px;
   padding-left: 28px;
   padding-right: 28px;
-}
-.header-container {
+} */
+/* .header-container {
   display: flex;
   justify-content: space-between;
   padding: 0 48px;
@@ -74,7 +74,7 @@ img {
 .nav-link {
   display: block;
   padding: 21px 0;
-}
+} */
 
 /*-------- Busness Cases------------- */
 .work_section{

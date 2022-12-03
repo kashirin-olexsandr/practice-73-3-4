@@ -1,0 +1,28 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+    align-items: center;
+}
+
+.header {
+    outline: 1px solid tomato;
+}
+
+.logo {}
+
+.navigation {}
+
+.nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 38px;
+}
+
+.nav-item {}
+
+.nav-link {
+    display: block;
+    padding: 21px 0;
+}
