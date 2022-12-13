@@ -11,7 +11,7 @@
   font-family: "Open Sans", sans-serif;
   color: var(--main-color-text);
 } */
-
+ 
 /* скидання стилів */
 
 /* h1,
@@ -158,7 +158,7 @@ img {
 }
 
 /* ________________Blog Post One________________ */
-.blog {
+/* .blog {
   display: flex;
   background-color: var(--bgc-blog);
  
@@ -204,8 +204,27 @@ color: var(--color-white)
       padding: 10px 35px;
 }
 
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap:25px;
+  padding-bottom: 10px;
+}
 
-.img-blog {}
+.soc-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  }
+
+.soc-icon {
+  fill: var(--icon-main-color);
+} */
+
+
+
+/* .img-blog {} */
 
 /* What you are looking for */
 
