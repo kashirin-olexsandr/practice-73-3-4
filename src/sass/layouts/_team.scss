@@ -65,5 +65,27 @@
   }
   
   .thumb:hover .soc-link {
-    opacity: 1;
+    opacity: 0;
   }
+
+  .thumb .soc-list {
+    position: absolute;
+    top: 130px;
+    left: 102px;
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    padding-bottom: 10px;
+  }
+  
+  .soc-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    }
+  
+  .soc-icon {
+    fill: var(--icon-main-color);
+  }
+  
