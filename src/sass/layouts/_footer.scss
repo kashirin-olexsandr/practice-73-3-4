@@ -1,0 +1,36 @@
+.footer {
+    background-color: var(--footer-background-color);
+    padding-top: 20px;
+    padding-bottom: 16px;
+  }
+  
+  .footer-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .soc-list {
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    padding-bottom: 10px;
+  }
+  
+  .soc-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    }
+  
+  .soc-icon {
+    fill: var(--icon-main-color);
+  }
+  
+  
+  .copy-text {
+    font-size: 18px;
+    line-height: 1.56;
+    color: #FFFFFF;
+    text-align: center;
+  }
