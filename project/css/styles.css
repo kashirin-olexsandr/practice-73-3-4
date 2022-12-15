@@ -158,7 +158,7 @@ img {
 }
 
 /* ________________Blog Post One________________ */
-.blog {
+/* .blog {
   display: flex;
   background-color: var(--bgc-blog);
  
@@ -202,10 +202,10 @@ color: var(--color-white)
     border: 1px solid #FFFFFF;
       border-radius: 5px;
       padding: 10px 35px;
-}
+} */
 
 
-.img-blog {}
+/* .img-blog {} */
 
 /* What you are looking for */
 
@@ -264,7 +264,7 @@ color: var(--color-white)
   
 
 /* ------------------section callback---------*/
-
+/* 
 .callback {
   text-transform: capitalize;
 }
@@ -317,7 +317,7 @@ color: var(--color-white)
   text-align: center;
   color: #FFFFFF;
   text-transform: inherit;
-}
+} */
 /* ------------OUR PROFESSIONAL TEAM----------- */
 
 .team-uptitle{
