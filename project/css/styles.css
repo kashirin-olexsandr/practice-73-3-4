@@ -319,7 +319,7 @@ color: var(--color-white)
   text-transform: inherit;
 }
 /* ------------OUR PROFESSIONAL TEAM----------- */
-
+/* 
 .team-uptitle{
   font-size: 20px;
   line-height: 1.65;
@@ -388,5 +388,5 @@ color: var(--color-white)
 
 .thumb:hover .soc-link {
   opacity: 1;
-}
+} */
 
